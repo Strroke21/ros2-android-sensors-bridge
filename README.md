@@ -48,7 +48,7 @@ Subscribes:
 ### Installation
 ```bash
 cd <ros2_ws>/src
-git clone https://github.com/strroke21/ros2-android-sensors.git mobile_sensor
+git clone https://github.com/strroke21/ros2-android-sensors-bridge.git mobile_sensor
 cd mobile_sensor
 export ROS_DISTRO=humble # ensure ROS environment is detected by rclnodejs
 npm install              # install node dependencies BEFORE colcon build
