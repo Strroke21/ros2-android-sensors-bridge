@@ -47,7 +47,7 @@ Subscribes:
 
 ### Installation
 ```bash
-cd <ros2_ws>/src
+cd 
 git clone https://github.com/strroke21/ros2-android-sensors-bridge.git 
 cd ros2-android-sensors-bridge/
 export ROS_DISTRO=jazzy # ensure ROS environment is detected by rclnodejs
@@ -60,7 +60,7 @@ cd ..
 ./generate_ssl_cert.sh  # create ssl/key.pem + cert.pem
 cd ..
 colcon build --packages-select mobile_sensor
-echo "source ros2-android-sensors-bridge/install/setup.bash" >> ~/.bashrc
+echo "source ~/ros2-android-sensors-bridge/install/setup.bash" >> ~/.bashrc
 ```
 
 ### Launch
