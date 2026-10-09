@@ -58,6 +58,7 @@ mkdir -p ssl            # create ssl directory if it doesn't exist
 cd ssl/ && touch key.pem
 cd ..
 ./generate_ssl_cert.sh  # create ssl/key.pem + cert.pem
+cd ..
 colcon build --packages-select mobile_sensor
 echo "source ros2-android-sensors-bridge/install/setup.bash" >> ~/.bashrc
 ```
